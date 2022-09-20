@@ -7,34 +7,28 @@
       "id": 1
     },
     {
-      "name": "Sam Sidhu",
-      "email": "am@seller.com",
+      "name": "alina",
       "password": "abc@123",
+      "email": "alina@abc.com",
       "id": 2
     },
     {
-      "name": "avi",
-      "email": "avi@seller.com",
-      "password": "abc@123",
+      "name": "nisha",
+      "password": "nisha@2022",
+      "email": "nisha@test.com",
       "id": 3
     },
     {
-      "name": "avinash",
-      "password": "avinash",
-      "email": "avinash@gmail.com",
+      "name": "Avinash",
+      "password": "avi@123",
+      "email": "avi@gmail.com",
       "id": 4
     },
     {
-      "name": "petter",
-      "password": "petter@123",
-      "email": "petter@test.com",
+      "name": "anil",
+      "password": "abc@123",
+      "email": "ani@test.com",
       "id": 5
-    },
-    {
-      "name": "ani",
-      "password": "ani",
-      "email": "ani@gmail.com",
-      "id": 6
     }
   ]
 }
