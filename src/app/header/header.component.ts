@@ -1,4 +1,6 @@
+import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  menuType: String ='default';
+  constructor(private route: Router) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    this.route.events.subscribe((val:any)=>{
+      if(val.url){
+        if(localStorage.getItem('seller') && val.url.includes('seller')){
+          console.warn("in seller area")
+          this.menuType="seller"
+        } else {
+          console.warn("outside seller area")
+          this.menuType="default"
+        }
+      }
+    })
   }
 
 }
