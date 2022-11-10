@@ -29,6 +29,41 @@
       "password": "abc@123",
       "email": "ani@test.com",
       "id": 5
+    },
+    {
+      "name": "avi",
+      "email": "avi@seller.com",
+      "password": "abc@123",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "samsung m40",
+      "price": "100000",
+      "color": "black",
+      "category": "mobile",
+      "description": "a good product",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Iphone 14",
+      "price": "100000",
+      "color": "white",
+      "category": "mobile",
+      "description": "this is a good mobile",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+      "id": 2
+    },
+    {
+      "name": "samsung",
+      "price": "200000",
+      "color": "white",
+      "category": "washingmachine",
+      "description": "good machine",
+      "image": "google.com",
+      "id": 3
     }
   ]
 }
