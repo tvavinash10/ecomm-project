@@ -48,22 +48,13 @@
       "id": 1
     },
     {
-      "name": "Iphone 14",
-      "price": "100000",
-      "color": "white",
-      "category": "mobile",
-      "description": "this is a good mobile",
-      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
-      "id": 2
-    },
-    {
-      "name": "samsung",
+      "name": "hp laptop",
       "price": "200000",
-      "color": "white",
-      "category": "washingmachine",
-      "description": "good machine",
-      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+      "color": "black",
+      "category": "laptop",
+      "description": "good amazing product",
+      "image": "https://www.gizbot.com/images/2017-05/hp-pavilion-15-laptop_149500618690.jpg",
       "id": 3
     }
   ]
-} 
+}
