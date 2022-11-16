@@ -48,13 +48,13 @@
       "id": 1
     },
     {
-      "name": "hp laptop",
-      "price": "200000",
-      "color": "black",
-      "category": "laptop",
-      "description": "good amazing product",
-      "image": "https://www.gizbot.com/images/2017-05/hp-pavilion-15-laptop_149500618690.jpg",
-      "id": 3
+      "name": "washing machine",
+      "price": "20000",
+      "color": "white",
+      "category": "washing machine",
+      "description": "good for clothes",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glss-tl/gallery/in-front-loading-ww60r20glmatl-322203-ww60r20glss-tl-531194547?$2052_1641_PNG$",
+      "id": 4
     }
   ]
 }
