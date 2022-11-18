@@ -55,6 +55,33 @@
       "description": "good for clothes",
       "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glss-tl/gallery/in-front-loading-ww60r20glmatl-322203-ww60r20glss-tl-531194547?$2052_1641_PNG$",
       "id": 4
+    },
+    {
+      "name": "nike ",
+      "price": "2000",
+      "color": "black",
+      "category": "shoes",
+      "description": "comfort shoes",
+      "image": "https://contents.mediadecathlon.com/p2155519/675a901c012338809f9e6dda7dd6ea6b/p2155519.jpg?format=auto&quality=70&f=1024x0",
+      "id": 5
+    },
+    {
+      "name": "necklace",
+      "price": "300000",
+      "color": "gold",
+      "category": "apparel",
+      "description": "Good quality",
+      "image": "https://m.media-amazon.com/images/I/811GGxhSZbL._UL1400_.jpg",
+      "id": 6
+    },
+    {
+      "name": "agarbathi",
+      "price": "200",
+      "color": "Silver",
+      "category": "pooja items",
+      "description": "Good fragrence",
+      "image": "https://cf.cycle.in/cache/data/Three-in-one-2-800x800.jpg",
+      "id": 7
     }
   ]
 }
