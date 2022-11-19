@@ -1,11 +1,100 @@
 <ngb-carousel *ngIf="popularProducts">
-	<ng-template *ngFor="let item of popularProducts" ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img class="product-header-img" src="{{item.image}}" alt="Products" />
-		</div>
-		<div class="carousel-caption">
-			<h3>{{item.name}}</h3>
-			<p>{{item.description}}</p>
-		</div>
-	</ng-template>
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img class="product-header-img" src="{{ item.image }}" alt="Products" />
+    </div>
+    <div class="carousel-caption">
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </ng-template>
 </ngb-carousel>
+<div class="product-list-wrapper">
+  <h1>Trendy Products</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="product-item">
+        <img
+          src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+          alt=""
+        />
+        <div class="product-details">
+          <h6 class="name-head">New Apple Mobile</h6>
+          <div class="product-price">
+            <h6>Price: 100000</h6>
+          </div>
+          <div class="product-color">
+            <h6>Color: purple</h6>
+          </div>
+        </div>
+        <div class="product-footer">
+          <a href="">View Details</a>
+          <a href="">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+	<div class="col-sm-3">
+		<div class="product-item">
+		  <img
+			src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+			alt=""
+		  />
+		  <div class="product-details">
+			<h6 class="name-head">New Apple Mobile</h6>
+			<div class="product-price">
+			  <h6>Price: 100000</h6>
+			</div>
+			<div class="product-color">
+			  <h6>Color: purple</h6>
+			</div>
+		  </div>
+		  <div class="product-footer">
+			<a href="">View Details</a>
+			<a href="">Add to Cart</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-3">
+		<div class="product-item">
+		  <img
+			src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+			alt=""
+		  />
+		  <div class="product-details">
+			<h6 class="name-head">New Apple Mobile</h6>
+			<div class="product-price">
+			  <h6>Price: 100000</h6>
+			</div>
+			<div class="product-color">
+			  <h6>Color: purple</h6>
+			</div>
+		  </div>
+		  <div class="product-footer">
+			<a href="">View Details</a>
+			<a href="">Add to Cart</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-3">
+		<div class="product-item">
+		  <img
+			src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+			alt=""
+		  />
+		  <div class="product-details">
+			<h6 class="name-head">New Apple Mobile</h6>
+			<div class="product-price">
+			  <h6>Price: 100000</h6>
+			</div>
+			<div class="product-color">
+			  <h6>Color: purple</h6>
+			</div>
+		  </div>
+		  <div class="product-footer">
+			<a href="">View Details</a>
+			<a href="">Add to Cart</a>
+		  </div>
+		</div>
+	  </div>
+  </div>
+</div>
