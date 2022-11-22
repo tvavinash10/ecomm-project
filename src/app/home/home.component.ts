@@ -14,11 +14,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.product.popularProducts().subscribe((data) => {
-      console.warn(data);
       this.popularProducts = data;
     });
     this.product.trendyProducts().subscribe((data) => {
-      console.warn(data);
       this.trendyProducts = data;
     });
   }

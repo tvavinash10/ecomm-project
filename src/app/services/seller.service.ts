@@ -28,17 +28,13 @@ export class SellerService {
     }
   }
   userLogin(data:login){
-    console.warn(data)
     this.http
     .get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, { observe: 'response' })
     .subscribe((result: any) => {
-      console.warn(result)
       if(result && result.body && result.body.length){
-        console.warn("User Logged in")
         localStorage.setItem('seller', JSON.stringify(result.body));
         this.router.navigate(['seller-home']);
       } else {
-        console.log("Login Failed")
         this.isLoginError.emit(true)
       }
     });
