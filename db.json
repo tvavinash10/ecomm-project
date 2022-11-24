@@ -83,5 +83,19 @@
       "image": "https://cf.cycle.in/cache/data/Three-in-one-2-800x800.jpg",
       "id": 7
     }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "avinash",
+      "email": "avi@seller.com",
+      "password": "avi123",
+      "id": 2
+    }
   ]
 }
