@@ -18,7 +18,7 @@ export class UserAuthComponent implements OnInit {
     this.user.userSignUp(data);
   }
   login(data:login){
-    console.warn(data);
+    this.user.userLogin(data);
   }
   openLogin(){
     this.showLogin=true;
