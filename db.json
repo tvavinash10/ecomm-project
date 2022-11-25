@@ -96,6 +96,18 @@
       "email": "avi@seller.com",
       "password": "avi123",
       "id": 2
+    },
+    {
+      "name": "Bruse",
+      "email": "bruse@seller.com",
+      "password": "bruse@123",
+      "id": 3
+    },
+    {
+      "name": "Vinay",
+      "email": "vinay@user.com",
+      "password": "vinay@123",
+      "id": 4
     }
   ]
 }
