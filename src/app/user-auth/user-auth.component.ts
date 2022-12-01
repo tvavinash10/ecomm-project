@@ -36,11 +36,11 @@ export class UserAuthComponent implements OnInit {
     this.showLogin = false;
   }
   localCartToRemoteCart() {
-    let data = localStorage.getItem('localCart');
+    let data = localStorage.getItem('localCart');    
+    let user = localStorage.getItem('user');
+    let userId = user && JSON.parse(user).id;
     if (data) {
       let cartDataList: product[] = JSON.parse(data);
-      let user = localStorage.getItem('user');
-      let userId = user && JSON.parse(user).id;
       cartDataList.forEach((product: product, index) => {
         let cartData: cart = {
           ...product,
@@ -48,18 +48,20 @@ export class UserAuthComponent implements OnInit {
           userId
         };
         delete cartData.id;
-        this.product.addToCart(cartData).subscribe((result)=>{
-          setTimeout(() => {
+        setTimeout(() => {
+        this.product.addToCart(cartData).subscribe((result)=>{          
             if(result){
               console.warn("Item stored in DB",result);
             }
+          })
+          }, 500);
             if(cartDataList.length===index+1){
               localStorage.removeItem('localCart');
-            }
-          }, 500);
-        })
-      });
-
+            }       
+      })
     }
+    setTimeout(() => {
+      this.product.getCartList(userId);      
+    }, 2000);
   }
 }
