@@ -134,6 +134,42 @@
       "userId": 1,
       "productId": 4,
       "id": 2
+    },
+    {
+      "name": "washing machine",
+      "price": "2000",
+      "color": "white",
+      "category": "washing machine",
+      "description": "good for clothes",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glss-tl/gallery/in-front-loading-ww60r20glmatl-322203-ww60r20glss-tl-531194547?$2052_1641_PNG$",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 3
+    },
+    {
+      "name": "washing machine",
+      "price": "2000",
+      "color": "white",
+      "category": "washing machine",
+      "description": "good for clothes",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glss-tl/gallery/in-front-loading-ww60r20glmatl-322203-ww60r20glss-tl-531194547?$2052_1641_PNG$",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 4
+    },
+    {
+      "name": "necklace",
+      "price": "300000",
+      "color": "gold",
+      "category": "apparel",
+      "description": "Good quality",
+      "image": "https://m.media-amazon.com/images/I/811GGxhSZbL._UL1400_.jpg",
+      "quantity": 1,
+      "productId": 6,
+      "userId": null,
+      "id": 5
     }
   ]
 }
