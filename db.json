@@ -184,18 +184,6 @@
       "id": 6
     },
     {
-      "name": "samsung m40",
-      "price": "100000",
-      "color": "black",
-      "category": "mobile",
-      "description": "a good product",
-      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
-      "quantity": 1,
-      "userId": 4,
-      "productId": 1,
-      "id": 7
-    },
-    {
       "name": "necklace",
       "price": "300000",
       "color": "gold",
@@ -208,15 +196,15 @@
       "id": 8
     },
     {
-      "name": "nike ",
-      "price": "2000",
-      "color": "black",
-      "category": "shoes",
-      "description": "comfort shoes",
-      "image": "https://contents.mediadecathlon.com/p2155519/675a901c012338809f9e6dda7dd6ea6b/p2155519.jpg?format=auto&quality=70&f=1024x0",
-      "quantity": 5,
+      "name": "agarbathi",
+      "price": "200",
+      "color": "Silver",
+      "category": "pooja items",
+      "description": "Good fragrence",
+      "image": "https://cf.cycle.in/cache/data/Three-in-one-2-800x800.jpg",
+      "quantity": 1,
       "userId": 4,
-      "productId": 5,
+      "productId": 7,
       "id": 9
     }
   ]
