@@ -219,5 +219,15 @@
       "productId": 5,
       "id": 11
     }
+  ],
+  "orders": [
+    {
+      "email": "avinash@gmail.com",
+      "address": "yelahanka",
+      "contact": "998619190",
+      "totalPrice": 12300,
+      "userId": 4,
+      "id": 1
+    }
   ]
 }
