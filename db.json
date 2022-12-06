@@ -184,18 +184,6 @@
       "id": 6
     },
     {
-      "name": "necklace",
-      "price": "300000",
-      "color": "gold",
-      "category": "apparel",
-      "description": "Good quality",
-      "image": "https://m.media-amazon.com/images/I/811GGxhSZbL._UL1400_.jpg",
-      "quantity": 3,
-      "userId": 4,
-      "productId": 6,
-      "id": 8
-    },
-    {
       "name": "agarbathi",
       "price": "200",
       "color": "Silver",
@@ -206,6 +194,30 @@
       "userId": 4,
       "productId": 7,
       "id": 9
+    },
+    {
+      "name": "washing machine",
+      "price": "2000",
+      "color": "white",
+      "category": "washing machine",
+      "description": "good for clothes",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ww60r20glss-tl/gallery/in-front-loading-ww60r20glmatl-322203-ww60r20glss-tl-531194547?$2052_1641_PNG$",
+      "quantity": 1,
+      "userId": 4,
+      "productId": 4,
+      "id": 10
+    },
+    {
+      "name": "nike ",
+      "price": "2000",
+      "color": "black",
+      "category": "shoes",
+      "description": "comfort shoes",
+      "image": "https://contents.mediadecathlon.com/p2155519/675a901c012338809f9e6dda7dd6ea6b/p2155519.jpg?format=auto&quality=70&f=1024x0",
+      "quantity": 5,
+      "userId": 4,
+      "productId": 5,
+      "id": 11
     }
   ]
 }
