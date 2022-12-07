@@ -184,18 +184,6 @@
       "id": 6
     },
     {
-      "name": "agarbathi",
-      "price": "200",
-      "color": "Silver",
-      "category": "pooja items",
-      "description": "Good fragrence",
-      "image": "https://cf.cycle.in/cache/data/Three-in-one-2-800x800.jpg",
-      "quantity": 1,
-      "userId": 4,
-      "productId": 7,
-      "id": 9
-    },
-    {
       "name": "washing machine",
       "price": "2000",
       "color": "white",
@@ -205,7 +193,7 @@
       "quantity": 1,
       "userId": 4,
       "productId": 4,
-      "id": 10
+      "id": 8
     },
     {
       "name": "nike ",
@@ -214,10 +202,10 @@
       "category": "shoes",
       "description": "comfort shoes",
       "image": "https://contents.mediadecathlon.com/p2155519/675a901c012338809f9e6dda7dd6ea6b/p2155519.jpg?format=auto&quality=70&f=1024x0",
-      "quantity": 5,
+      "quantity": 1,
       "userId": 4,
       "productId": 5,
-      "id": 11
+      "id": 9
     }
   ],
   "orders": [
