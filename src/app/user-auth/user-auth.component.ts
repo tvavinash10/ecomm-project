@@ -51,7 +51,6 @@ export class UserAuthComponent implements OnInit {
         setTimeout(() => {
         this.product.addToCart(cartData).subscribe((result)=>{          
             if(result){
-              console.warn("Item stored in DB",result);
             }
           })
           }, 500);

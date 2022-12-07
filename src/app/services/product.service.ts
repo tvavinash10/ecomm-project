@@ -60,7 +60,6 @@ export class ProductService {
   getCartList(userId:number){
     return this.http.get<product[]>('http://localhost:3000/cart?userId='+userId,
     {observe:'response'}).subscribe((result)=>{
-      console.warn(result.body);
       if(result && result.body){
         this.cartData.emit(result.body);
       }
